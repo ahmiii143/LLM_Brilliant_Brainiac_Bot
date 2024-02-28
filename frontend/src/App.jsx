@@ -58,6 +58,9 @@ function App() {
       };
 
       const response = await fetch("http://localhost:5000/gemini", options);
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
+      }
       const data = await response.text();
 
       // Update the loading message with the actual response

@@ -29,4 +29,4 @@ export const generateChatResponse = async (
   }
 };
 
-export default { generateChatResponse, createGenerativeAI };
+export default { generateChatResponse, GoogleGenerativeAI, genAI };
