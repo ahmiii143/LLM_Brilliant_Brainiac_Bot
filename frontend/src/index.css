@@ -1,0 +1,101 @@
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: darkslateblue;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app {
+  width: 90vw;
+  max-width: 800px;
+  height: 80vh;
+  margin: 5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headingText {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.button {
+  background-color: #61dafb;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #47a3f3;
+}
+
+.input-container {
+  margin-top: 16px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 100%;
+  max-width: 600px;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 15px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.error {
+  color: #ff4646;
+  margin-top: 10px;
+}
+
+.search-results {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+}
+
+.answer {
+  background-color: #fff;
+  color: #333;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
